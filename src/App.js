@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
+import './reset.scss';
+import './App.scss';
 
 class App extends Component {
   constructor() {
