@@ -1,3 +1,7 @@
+.side-menu {
+  position: relative;
+}
+
 .fa-bars {
   font-size: 24px;
   margin: 5px;
@@ -5,11 +9,13 @@
 }
 
 .menu-items {
-  
+  position: absolute;
+  top: 0;
+  right: 20px;
 }
 
 .menu-list {
     padding: 10px 16px;
-    color: white;
+    color: black;
     border-bottom: 1px solid white;
 }

@@ -11,7 +11,7 @@ class SideMenu extends Component {
 
   render() {
       return(
-        <section>
+        <section className='side-menu'>
             <div className='menu-button'>
               <i className="fas fa-bars"></i>
             </div>
