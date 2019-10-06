@@ -9,7 +9,7 @@ class SearchProperty extends Component {
     }
 
     handleChange = (e) => {
-      this.state({ [e.target.name] : e.target.value })
+      this.setState({ [e.target.name] : e.target.value })
     }
 
     submitSearch = (e) => {
