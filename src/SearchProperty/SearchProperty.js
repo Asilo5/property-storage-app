@@ -26,7 +26,7 @@ class SearchProperty extends Component {
           <form>
               <input className='search-property' 
                      type='text'
-                     placeholder='Search for location of property here'
+                     placeholder='Search location of property here'
                      name='location' 
                      value={this.state.location}
                      onChange={(e) => this.handleChange(e)}/>
