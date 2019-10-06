@@ -1,6 +1,6 @@
 .search-property {
     font-size: 20px;
-    width: 20%;
+    width: 22%;
     border: none;
     border-bottom: 1px solid #ccc9c9;
 }
@@ -10,4 +10,10 @@
     background: transparent;
     border: none;
     margin-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    &:hover {
+      background-color: seagreen;
+      color: white;
+    }
 }
