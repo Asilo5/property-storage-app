@@ -5,7 +5,7 @@ import SideMenu from '../SideMenu/SideMenu';
 const Header = () => {
   return(
     <header>
-        <h1>Property App</h1>
+        <h1>Proplr</h1>
         <SideMenu />
     </header> 
   )
