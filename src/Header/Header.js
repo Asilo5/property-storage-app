@@ -6,7 +6,7 @@ const Header = () => {
     <header>
         <h1>Property App</h1>
         <h2>Side Bar location</h2>
-    </header>
+    </header> 
   )
 }
 

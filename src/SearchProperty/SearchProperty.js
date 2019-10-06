@@ -10,7 +10,7 @@ class SearchProperty extends Component {
 
     handleChange = (e) => {
       this.setState({ [e.target.name] : e.target.value })
-    }
+    } 
 
     submitSearch = (e) => {
       e.preventDefault();
