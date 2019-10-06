@@ -14,30 +14,35 @@
   cursor: pointer; 
 }
 
-// .menu-items {
-//   position: absolute;
-//   top: 0;
-//   right: 20px;
-//   z-index: 999;
-//   background-color: seagreen;
-//   width: 10em;
-// }
-
 nav {
     position: absolute;
-    top: 20px;
+    top: 0px;
     right: -11px;
     z-index: 999;
     background-color: seagreen;
     width: 10em;
+    -webkit-transition: right 0.3s ease-in;
+    -o-transition: right 0.3s ease-in;
+    transition: right 0.3s ease-in;
 }
 
 nav.show {
-    left: 50px
+    left: 50px;
  }
 
 .menu-list {
     padding: 10px 16px;
     color: white;
     border-bottom: 1px solid white;
+}
+
+.fa-times {
+  color: white;
+  font-size: 30px;
+}
+
+.close-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
 }
