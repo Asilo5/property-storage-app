@@ -4,10 +4,8 @@ import './App.scss';
 
 import Header from './Header/Header';
 import SearchProperty from './SearchProperty/SearchProperty';
+import PropertyFiltering from './PropertyFiltering/PropertyFiltering';
 import PropertyContainer from './PropertyContainer/PropertyContainer';
-import Favourites from './Favourites/Favourites';
-import BookingsCalendar from './BookingsCalendar/BookingsCalendar';
-import AddProperty from './AddProperty/AddProperty';
 
 class App extends Component {
   constructor() {
@@ -23,11 +21,7 @@ class App extends Component {
       <main className='App'>
         <Header />
         <SearchProperty />
-        <section className='property-filtering'>
-          <Favourites />
-          <BookingsCalendar />
-          <AddProperty />
-        </section>
+        <PropertyFiltering />
         <PropertyContainer />
       </main>
     )
