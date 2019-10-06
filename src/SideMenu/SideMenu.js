@@ -11,7 +11,9 @@ class SideMenu extends Component {
 
   render() {
       return(
-        <p>Side Bar location</p>
+        <section>
+            <i className="fas fa-bars"></i>
+        </section>
       )
   }
 }
