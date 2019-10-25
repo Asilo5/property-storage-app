@@ -11,12 +11,15 @@
 
 Clone the repo to your terminal :``` $ git clone https://github.com/Asilo5/proplr-app.git```
 
+Run ``` npm install ``` on your terminal
+
 To open the app on your web server run ``` $ npm start ```
 
 ## What was used to build Proplr
 
 Proplr was built using:
   - React
+  - Redux
   - Jest
   - Enzyme
   
