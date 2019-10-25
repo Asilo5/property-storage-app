@@ -3,7 +3,9 @@
 ...
 
 ## Created by:
-[Amanda Consuelo Sierra](https://github.com/Asilo5)
+- [Jamie Barrett](https://github.com/jb-0)
+- [Amanda Consuelo Sierra](https://github.com/Asilo5)
+- [Jessie Le-Ho](https://github.com/Jessiewithani)
 
 ## View Proplr locally in your computer
 
