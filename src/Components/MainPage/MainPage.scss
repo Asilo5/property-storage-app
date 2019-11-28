@@ -1,6 +1,25 @@
 header {
     background-image: url('https://images.unsplash.com/photo-1464146072230-91cabc968266?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
     background-size: cover;
-    height: 31em;
+    height: 40em;
     background-position: center;
+}
+
+.looking-for-home {
+    background: rgb(179, 240, 164);
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: -37px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.small-intro {
+    display: flex;
+    justify-content: space-around;
+    img {
+        height: 20px;
+    }
 }
