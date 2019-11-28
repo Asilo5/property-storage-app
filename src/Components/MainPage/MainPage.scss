@@ -11,17 +11,26 @@ header {
     width: 50%;
     margin: auto;
     position: relative;
-    top: -37px;
+    top: -106px;
     border: 2px solid green;
     border-radius: 10px;
+    h2 {
+        font-size: 3em;
+        padding: 10px;
+        color: #013c01;
+        font-weight: bold;
+    }
+    p {
+
+    }
 }
 
-.small-intro {
+.small-intro-section {
     background-color: rgba(152, 169, 88, 0.685);
     display: flex;
     justify-content: center;
     padding: 5em;
-    margin-top: -74px;
+    margin-top: -130px;;
     max-height: 35em;
     img {
         height: 100%;
@@ -38,6 +47,24 @@ header {
       padding: 5px 0 0 5px;
       border-top: double;
       border-left: double;
+    }
+}
+
+.intro {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    h2 {
+        font-size: 4em;
+        padding: 20px;
+        color: #013c01;
+        font-weight: bold;
+    }
+    p {
+
     }
 }
 
