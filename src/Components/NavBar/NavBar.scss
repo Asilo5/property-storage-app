@@ -14,14 +14,20 @@ h1 {
 
 .nav-links {
   margin: 10px;
+  .nav {
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 15px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    &:hover {
+      border: none;
+      background-color: white;
+      color: black;
+    }
+  }
 }
 
-.nav {
-  text-decoration: none;
-  padding: 5px;
-  margin-right: 15px;
-  font-size: 20px;
-  color: white;
-  border: 1px solid white;
-  border-radius: 5px;
-}
