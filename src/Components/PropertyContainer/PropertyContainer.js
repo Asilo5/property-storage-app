@@ -1,12 +1,13 @@
 import React from 'react';
 import './PropertyContainer.scss';
-import PropertyCard from '../PropertyCard/PropertyCard';
+import SearchProperty from '../SearchProperty/SearchProperty';
+
+
 
 const PropertyContainer = () => {
-
-  return (
-    <section className='property-container'>
-    <PropertyCard />
+  return(
+    <section className='property-filtering'>
+    
     </section>
   )
 }
