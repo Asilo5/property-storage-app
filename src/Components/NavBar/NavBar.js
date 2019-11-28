@@ -6,9 +6,11 @@ const NavBar = () => {
   return(
     <navbar>
         <h1>Proplr</h1>
-        <NavLink to='/aboutus' > About us </NavLink>
-        <NavLink to='/contact' > Contact </NavLink>
-        <NavLink to='/login'> Login </NavLink>
+        <div className='nav-links'>
+          <NavLink to='/aboutus' className='nav' activeClassName='active'> About us </NavLink>
+          <NavLink to='/contact' className='nav' activeClassName='active'> Contact </NavLink>
+          <NavLink to='/login' className='nav' activeClassName='active'> Login </NavLink>
+        </div>
     </navbar> 
   )
 }
