@@ -7,11 +7,11 @@ header {
 
 .looking-for-home {
     background: white;
-    padding: 20px;
-    width: 50%;
+    padding: 10px;
+    width: 33%;
     margin: auto;
     position: relative;
-    top: -106px;
+    top: -84px;
     border: 2px solid green;
     border-radius: 10px;
     h2 {
@@ -20,9 +20,10 @@ header {
         color: #013c01;
         font-weight: bold;
     }
-    p {
+}
 
-    }
+p {
+    font-size: 24px;
 }
 
 .small-intro-section {
@@ -30,7 +31,7 @@ header {
     display: flex;
     justify-content: center;
     padding: 5em;
-    margin-top: -130px;;
+    margin-top: -123px;
     max-height: 35em;
     img {
         height: 100%;
