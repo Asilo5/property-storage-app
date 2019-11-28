@@ -17,7 +17,7 @@ const MainPage = () => {
               <section className='intro'>
                   <h2>Proplr</h2>
                   <p>Helps you store properties from multiple sites in one spot!</p>
-                  <p>Just that easy</p>
+                  <p>Just that easy.</p>
                   <button>Get Started</button>
               </section>
           </section>
