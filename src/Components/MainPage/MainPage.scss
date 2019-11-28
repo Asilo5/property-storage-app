@@ -22,12 +22,17 @@ header {
     justify-content: center;
     padding: 5em;
     margin-top: -74px;
+    max-height: 35em;
     img {
-        height: 24%;
+        height: 100%;
     }
     .bedroom-img {
         position: relative;
         top: 10%;
         right: 24%;
     }
+}
+
+footer {
+    background-color: #436B38;
 }
