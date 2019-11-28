@@ -1,18 +1,14 @@
 import React from 'react';
-import './PropertyFiltering.scss';
-// import Favourites from './Favourites/Favourites';
-// import BookingsCalendar from './BookingsCalendar/BookingsCalendar';
-// import AddProperty from './AddProperty/AddProperty';
+import './PropertyContainer.scss';
 
 
-const PropertyFiltering = () => {
+
+const PropertyContainer = () => {
   return(
     <section className='property-filtering'>
-      {/* <Favourites />
-      <BookingsCalendar />
-      <AddProperty /> */}
+    
     </section>
   )
 }
 
-export default PropertyFiltering;
+export default PropertyContainer;
