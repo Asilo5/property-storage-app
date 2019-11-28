@@ -11,8 +11,8 @@ const MainPage = () => {
           </section>
           <section className='small-intro'>
               <section>
-                  <img src='https://images.unsplash.com/photo-1504615755583-2916b52192a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60' alt='red brick house' />
-                  <img src='https://images.unsplash.com/photo-1499916078039-922301b0eb9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80' alt='inside a white bedroom facing the window' />
+                  <img className='brickhouse-img' src='https://images.unsplash.com/photo-1504615755583-2916b52192a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60' alt='red brick house' />
+                  <img className='bedroom-img' src='https://images.unsplash.com/photo-1499916078039-922301b0eb9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80' alt='inside a white bedroom facing the window' />
               </section>
               <section>
                   <h2>Proplr</h2>

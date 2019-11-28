@@ -6,20 +6,28 @@ header {
 }
 
 .looking-for-home {
-    background: rgb(179, 240, 164);
+    background: white;
     padding: 20px;
     width: 50%;
     margin: auto;
     position: relative;
     top: -37px;
-    border: 1px solid green;
+    border: 2px solid green;
     border-radius: 10px;
 }
 
 .small-intro {
+    background-color: rgba(152, 169, 88, 0.685);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 5em;
+    margin-top: -74px;
     img {
-        height: 20px;
+        height: 24%;
+    }
+    .bedroom-img {
+        position: relative;
+        top: 10%;
+        right: 24%;
     }
 }
