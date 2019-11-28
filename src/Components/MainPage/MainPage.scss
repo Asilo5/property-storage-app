@@ -67,6 +67,23 @@ p {
     p {
 
     }
+    button {
+        margin: 25px auto;
+        width: 20%;
+        padding: 5px;
+        border: none;
+        font-size: 20px;
+        border-radius: 7px;
+        font-weight: bold;
+        color: white;
+        background-color: #436B38;
+        cursor: pointer;
+        &:hover {
+            background-color: transparent;
+            border: 1px solid #436B38;
+            color: black;
+        }
+    }
 }
 
 footer {
