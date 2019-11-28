@@ -29,10 +29,19 @@ header {
     .bedroom-img {
         position: relative;
         top: 10%;
-        right: 24%;
+        right: 20%;
+        border-bottom: double;
+        border-right: double;
+        padding: 0 5px 5px 0;
+    }
+    .brickhouse-img {
+      padding: 5px 0 0 5px;
+      border-top: double;
+      border-left: double;
     }
 }
 
 footer {
     background-color: #436B38;
+    padding: 20px;
 }

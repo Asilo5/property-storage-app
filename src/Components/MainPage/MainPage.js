@@ -21,7 +21,7 @@ const MainPage = () => {
               </section>
           </section>
           <footer>
-              <p>Created by the Ginger team</p>
+              <p>Created by the © Ginger team</p>
           </footer>
       </section>
     )
