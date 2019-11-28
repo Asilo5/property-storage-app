@@ -1,5 +1,6 @@
 import React from 'react';
 import './PropertyContainer.scss';
+import SearchProperty from '../SearchProperty/SearchProperty';
 
 
 
