@@ -3,10 +3,10 @@ import './NavBar.scss';
 
 const NavBar = () => {
   return(
-    <header>
+    <navbar>
         <h1>Proplr</h1>
         
-    </header> 
+    </navbar> 
   )
 }
 

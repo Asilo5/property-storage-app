@@ -1,0 +1,92 @@
+header {
+    background-image: url('https://images.unsplash.com/photo-1464146072230-91cabc968266?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+    background-size: cover;
+    height: 40em;
+    background-position: center;
+}
+
+.looking-for-home {
+    background: white;
+    padding: 10px;
+    width: 33%;
+    margin: auto;
+    position: relative;
+    top: -84px;
+    border: 2px solid green;
+    border-radius: 10px;
+    h2 {
+        font-size: 3em;
+        padding: 10px;
+        color: #013c01;
+        font-weight: bold;
+    }
+}
+
+p {
+    font-size: 24px;
+}
+
+.small-intro-section {
+    background-color: rgba(152, 169, 88, 0.685);
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    margin-top: -123px;
+    max-height: 35em;
+    img {
+        height: 100%;
+    }
+    .bedroom-img {
+        position: relative;
+        top: 10%;
+        right: 20%;
+        border-bottom: double;
+        border-right: double;
+        padding: 0 5px 5px 0;
+    }
+    .brickhouse-img {
+      padding: 5px 0 0 5px;
+      border-top: double;
+      border-left: double;
+    }
+}
+
+.intro {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    h2 {
+        font-size: 4em;
+        padding: 20px;
+        color: #013c01;
+        font-weight: bold;
+    }
+    p {
+    line-height: 30px;
+    }
+    button {
+        margin: 25px auto;
+        width: 20%;
+        padding: 5px;
+        border: none;
+        font-size: 20px;
+        border-radius: 7px;
+        font-weight: bold;
+        color: white;
+        background-color: #436B38;
+        cursor: pointer;
+        &:hover {
+            background-color: transparent;
+            border: 1px solid #436B38;
+            color: black;
+        }
+    }
+}
+
+footer {
+    background-color: #436B38;
+    padding: 20px;
+}
