@@ -1,0 +1,58 @@
+.modal-background {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	background-size: cover;
+	transform: translate3d(-50%, -50%, 0);
+	backdrop-filter: brightness(10%);
+}
+
+form {
+	position: fixed;
+	z-index: 100;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+	background-color: rgba(152, 169, 88, 0.685);
+	border-radius: 10px;
+	width: 500px;
+  height: 300px;
+  .exit-login {
+    font-size: 20px;
+    background: red;
+    padding: 5px;
+    border-radius: 0 10px;
+    float: right;
+  }
+  .login-info {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 17em;
+    input {
+      font-size: 30px;
+      border: none;
+      border-radius: 20px;
+    }
+    button {
+      // width: 24%;
+      font-size: 24px;
+      border: 1px solid white;
+      border-radius: 5px;
+      font-weight: bold;
+      color: white;
+      background: transparent;
+    }
+  }
+}
+
+::placeholder {
+  text-align: center;
+}
+
+
+
+
