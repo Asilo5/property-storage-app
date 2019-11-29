@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './LoginForm.scss';
-import { NavLink, Route, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class LoginForm extends Component {
     constructor() {
@@ -12,10 +12,8 @@ class LoginForm extends Component {
       }
     }
 
-    modalToggle = () => {
-      this.setState ({
-         modalOpen: !this.state.modalOpen
-      })
+    handleChange = (e) => {
+      this.setState ({[e.target.name] : e.target.value })
     }
 
     render() {
@@ -29,13 +27,13 @@ class LoginForm extends Component {
                                type='email' 
                                name='userEmail' 
                                value={this.state.userEmail} 
-                                        />
+                               onChange={(e) => this.handleChange(e)}/>
                         <label>Password:</label>
                         <input placeholder='Password' 
                                type='password' 
                                name='userPassword' 
                                value={this.state.userPassword} 
-                                        />
+                               onChange={(e) => this.handleChange(e)}/>
                         <button> Submit </button>
                 </section>
             </form>
