@@ -1,0 +1,75 @@
+.modal-background {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	background-size: cover;
+	transform: translate3d(-50%, -50%, 0);
+	backdrop-filter: brightness(10%);
+}
+
+form {
+	position: fixed;
+	z-index: 100;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+	background-color: rgba(152, 169, 88, 0.685);
+	border-radius: 10px;
+	width: 500px;
+  height: 350px;
+  .exit-login {
+    font-size: 20px;
+    background: red;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 0 10px;
+    float: right;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+  .login-info {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 19em;
+    label {
+      font-size: 25px;
+      color: white;
+      font-weight: bold;
+    }
+    input {
+      font-size: 30px;
+      border: none;
+      border-radius: 20px;
+      caret-color: green;
+      text-align: center;
+    }
+    button {
+      font-size: 24px;
+      border: 1px solid white;
+      border-radius: 5px;
+      font-weight: bold;
+      color: white;
+      background: transparent;
+      cursor: pointer;
+      padding: 2px;
+      &:hover {
+        background: #436B38;
+        border: 1px solid rgb(4, 53, 8);
+      }
+    }
+  }
+}
+
+::placeholder {
+  text-align: center;
+}
+
+
+
+
