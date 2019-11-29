@@ -18,7 +18,7 @@ form {
 	background-color: rgba(152, 169, 88, 0.685);
 	border-radius: 10px;
 	width: 500px;
-  height: 300px;
+  height: 350px;
   .exit-login {
     font-size: 20px;
     background: red;
@@ -36,7 +36,12 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 17em;
+    height: 19em;
+    label {
+      font-size: 25px;
+      color: white;
+      font-weight: bold;
+    }
     input {
       font-size: 30px;
       border: none;

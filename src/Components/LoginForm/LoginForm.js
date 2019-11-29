@@ -24,11 +24,13 @@ class LoginForm extends Component {
             <form>
                 <NavLink to='/' className='exit-login'> X </NavLink>
                 <section className='login-info'>
+                        <label>Email:</label>
                         <input placeholder='youremail@here.com' 
                                type='email' 
                                name='userEmail' 
                                value={this.state.userEmail} 
                                         />
+                        <label>Password:</label>
                         <input placeholder='Password' 
                                type='password' 
                                name='userPassword' 
