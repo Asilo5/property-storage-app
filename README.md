@@ -20,6 +20,7 @@ To open the app on your web server run ``` $ npm start ```
 Proplr was built using:
   - React
   - Redux
+  - React-Router
   - Jest
   - Enzyme
   
